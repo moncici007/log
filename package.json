@@ -20,5 +20,8 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "homepage": "https://github.com/moncici007/log#readme"
+  "homepage": "https://github.com/moncici007/log#readme",
+  "dependencies": {
+    "@moncici/date-time-processor": "^1.0.3"
+  }
 }
