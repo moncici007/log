@@ -20,3 +20,5 @@ export const log = function(...args) {
   // 调用原始的 console.log 方法，附加时间戳和原始参数
   originalConsoleLog(`${timestamp} - ${callerInfo}: `, ...args);
 };
+
+log(112, 'hello world')
